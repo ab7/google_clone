@@ -1,0 +1,155 @@
+
+.user-links {
+  margin: 12px 30px 0;
+  vertical-align: text-top;
+}
+
+.user-links a {
+  color: #3A4040;
+  font-size: .8em;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+.user-links a:hover {
+  text-decoration: underline;
+}
+
+.user-links a:visited {
+  color: #3A4040;
+}
+
+.user-links img {
+  height: 1.5em;
+  vertical-align: middle;
+}
+
+.user-links input {
+  background-image: linear-gradient(#267DFF 0%, #136DE3 100%);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 8px 14px;
+}
+
+.user-links input:hover {
+  -webkit-box-shadow: 0 2px 0 rgba(50, 50, 50, 0.22);
+  -moz-box-shadow:    0 2px 0 rgba(50, 50, 50, 0.22);
+  box-shadow:         0 2px 0 rgba(50, 50, 50, 0.22);
+}
+
+.user-links input:focus {
+  outline: none;
+}
+
+.logo {
+  height: 100px;
+  display: block;
+  margin: 150px auto 15px;
+}
+
+.search-box {
+  background: url("../img/microphone.png") no-repeat right;
+  background-size: 23px;
+  border: 1px solid #D5DEE5;
+  display: block;
+  height: 25px;
+  margin: auto;
+  width: 580px;
+}
+
+.search-box:hover {
+  border-color: #AAB2B8;
+}
+
+.search-box:focus {
+  border-color: #5E95D8;
+  outline: none;
+}
+
+.submit-buttons {
+  border: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.submit-buttons input {
+  background-image: linear-gradient(#F5F5F5 0%, #E3E3E3 100%);
+  border: 1px solid #CFCFCF;
+  border-radius: 2px;
+  font-size: .65em;
+  font-weight: bold;
+  padding: 9px;
+  margin: 0 7px;
+}
+
+.submit-buttons input:hover {
+  border-color: #AAB2B8;
+  -webkit-box-shadow: 0 2px 0 rgba(50, 50, 50, 0.22);
+  -moz-box-shadow:    0 2px 0 rgba(50, 50, 50, 0.22);
+  box-shadow:         0 2px 0 rgba(50, 50, 50, 0.22);
+}
+
+.submit-buttons input:focus {
+  outline: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+  min-width: 1000px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -46px;
+}
+
+.footer {
+  background-image: linear-gradient(#E8E8E8 0%, #E3E3E3 100%);
+  height: 46px;
+}
+
+.push {
+  height: 46px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.bottom-links {
+  padding: 15px;
+}
+
+.bottom-links a {
+  color: #3A4040;
+  font-size: .8em;
+  text-decoration: none;
+  margin: 12px;
+}
+
+.bottom-links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-links a:visited {
+  color: #3A4040;
+  color: #3A4040;
+}
